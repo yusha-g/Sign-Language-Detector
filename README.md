@@ -79,13 +79,13 @@ After the completion of training and testing, the model is saved. This means the
 
 For the development of the web application, we utilise Flask. Since the application that we are about to create depends on several different files, it is crucial to create a single project folder that encompasses all the required files. The structure of our web application is as follows:
 
-$flask_final
-│   ├── index.py
-│   ├── model.h5
-│   │   ├── static
-│   │   |   ├── style.css
-│   │   └── template
-│   │   │   └── index.html
+$flask_final <br />
+│   └──── index.py <br />
+│   └──── model.h5 <br />
+│   └──── static <br />
+│   │   └──── style.css <br />
+│   └──── template <br />
+│   │   └── index.html <br />
 
 As mentioned above, flask_final is the folder inside of which all the required files are present; including our main .py script that hosts our main flask framework. Subfolders static and template holds the .css and the .html files respectively.
 
