@@ -1,30 +1,30 @@
 # Sign Language Detector README
 ## TABLE OF CONTENTS
-<b> [1. Introduction](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#1-introduction)  </b> <br/>
-&nbsp;&nbsp;&nbsp;[1.1. Overview](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#11-overview) <br/>
-&nbsp;&nbsp;&nbsp;[1.2. Abstract](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#12-abstract) <br/>
+<b> [1. Introduction](https://github.com/yusha-g/Sign-Language-Detector/tree/main#1-introduction)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[1.1. Overview](https://github.com/yusha-g/Sign-Language-Detector/tree/main#11-overview) <br/>
+&nbsp;&nbsp;&nbsp;[1.2. Abstract](https://github.com/yusha-g/Sign-Language-Detector/tree/main#12-abstract) <br/>
 
-<b> [2. Implementation](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#2-implementation)  </b> <br/>
-&nbsp;&nbsp;&nbsp;[2.1. Flow Chart](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#21-flow-chart) <br/>
-&nbsp;&nbsp;&nbsp;[2.2. Dataset](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#22-dataset) <br/>
-&nbsp;&nbsp;&nbsp;[2.3. Data Preprocessing](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#23-data-preprocessing) <br/>
-&nbsp;&nbsp;&nbsp;[2.4. Creation of the Model](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#24-creation-of-the-model) <br/>
-&nbsp;&nbsp;&nbsp;[2.5. Training and Testing](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#25-training-and-testing) <br/>
-&nbsp;&nbsp;&nbsp;[2.6. Creation of Web Application](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#26-creation-of-web-application) <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.6.1. Integrating HTML with FLASK](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#261-integrating-html-with-flask) <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.6.2. Prediction from User Input](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#262-prediction-from-user-input) <br/>
+<b> [2. Implementation](https://github.com/yusha-g/Sign-Language-Detector/tree/main#2-implementation)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[2.1. Flow Chart](https://github.com/yusha-g/Sign-Language-Detector/tree/main#21-flow-chart) <br/>
+&nbsp;&nbsp;&nbsp;[2.2. Dataset](https://github.com/yusha-g/Sign-Language-Detector/tree/main#22-dataset) <br/>
+&nbsp;&nbsp;&nbsp;[2.3. Data Preprocessing](https://github.com/yusha-g/Sign-Language-Detector/tree/main#23-data-preprocessing) <br/>
+&nbsp;&nbsp;&nbsp;[2.4. Creation of the Model](https://github.com/yusha-g/Sign-Language-Detector/tree/main#24-creation-of-the-model) <br/>
+&nbsp;&nbsp;&nbsp;[2.5. Training and Testing](https://github.com/yusha-g/Sign-Language-Detector/tree/main#25-training-and-testing) <br/>
+&nbsp;&nbsp;&nbsp;[2.6. Creation of Web Application](https://github.com/yusha-g/Sign-Language-Detector/tree/main#26-creation-of-web-application) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.6.1. Integrating HTML with FLASK](https://github.com/yusha-g/Sign-Language-Detector/tree/main#261-integrating-html-with-flask) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.6.2. Prediction from User Input](https://github.com/yusha-g/Sign-Language-Detector/tree/main#262-prediction-from-user-input) <br/>
 
-<b> [3. Outputs and Results](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#3-outputs-and-results)  </b> <br/>
-&nbsp;&nbsp;&nbsp;[3.1. Results](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#31-results) <br/>
-&nbsp;&nbsp;&nbsp;[3.2. Screenshot of Outputs](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#32-screenshot-of-outputs) <br/>
+<b> [3. Outputs and Results](https://github.com/yusha-g/Sign-Language-Detector/tree/main#3-outputs-and-results)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[3.1. Results](https://github.com/yusha-g/Sign-Language-Detector/tree/main#3-outputs-and-results) <br/>
+&nbsp;&nbsp;&nbsp;[3.2. Screenshot of Outputs](https://github.com/yusha-g/Sign-Language-Detector/tree/main#32-screenshot-of-outputs) <br/>
 
-<b> [4. Installation and Running Guide](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#4-installation-and-running-guide)  </b> <br/>
-&nbsp;&nbsp;&nbsp;[4.1. Installing Dependencies](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#41-installing-dependencies) <br/>
-&nbsp;&nbsp;&nbsp;[4.2. Running the application](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#42-running-the-application) <br/>
+<b> [4. Installation and Running Guide](https://github.com/yusha-g/Sign-Language-Detector/tree/main#32-screenshot-of-outputs)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[4.1. Installing Dependencies](https://github.com/yusha-g/Sign-Language-Detector/tree/main#41-installing-dependencies) <br/>
+&nbsp;&nbsp;&nbsp;[4.2. Running the application](https://github.com/yusha-g/Sign-Language-Detector/tree/main#41-installing-dependencies) <br/>
 
-<b> [5. Conclusion](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#5-conclusion)  </b> <br/>
+<b> [5. Conclusion](https://github.com/yusha-g/Sign-Language-Detector/tree/main#5-conclusion)  </b> <br/>
 
-<b> [6. References](https://github.com/yusha-g/Sign-Language-Detector/blob/main/README.md#references)  </b> <br/>
+<b> [6. References](https://github.com/yusha-g/Sign-Language-Detector/tree/main#5-conclusion)  </b> <br/>
 
 # 1. Introduction
 
