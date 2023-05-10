@@ -85,7 +85,7 @@ $flask_final <br />
 │   └──── static <br />
 │   │   └──── style.css <br />
 │   └──── template <br />
-│   │   └── index.html <br />
+│   │   └──── index.html <br />
 
 As mentioned above, flask_final is the folder inside of which all the required files are present; including our main .py script that hosts our main flask framework. Subfolders static and template holds the .css and the .html files respectively.
 
