@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style_copy.css') }}">
+    <title>Landing Page</title>
+</head>
+<body>
+    <h1>
+        American Sign Language Detection
+    </h1>
+    <table cellspacing="2px">
+        <!--MAIN TABLE THAT DIVIDES THE SCREEN IN TWO-->
+        <tr>
+            <td class="col_one">    <!--    RIGHT HAND SIDE    -->
+                <table class="t_inner">
+                    <tr>
+                    <th>
+                        <h3>Live Feed</h3>
+                    </th>
+                    </tr>
+                    <tr>
+                    <td class='padded'>
+                        <div class="vid">
+                            <img src="{{ url_for('video') }}" width="100%">
+                        </div>
+                    </td>
+                    <tr>
+                    <td>
+                        <form action="{{ url_for('capture') }}">    
+                            <button type="submit">Click to Capture!</button>
+                        </form>  
+                    </td>
+                    </tr>
+                </table>
+            </td>
+            <!--END OF ROW 1 COL 1-->
+            <!--LIVE VIDEO FEED WITH IMAGE CAPTURE BUTTON-->
+
+            <td class="col_two">    <!--    left HAND SIDE    -->
+                <table class="t_inner">
+                    <tr>
+                    <th colspan="2">
+                        <h3>Predicted Input</h3>
+                    </th>
+                    </tr>
+                    <tr>
+                    <td class="padded" colspan="2">
+                        <div style="font-size:30px; color:black;; text-transform: uppercase;">
+                            {{ output }}
+                        </div>
+                    </td>  
+                    </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="{{ url_for('reset') }}">    
+                                <button type="submit">Reset</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="{{ url_for('del_last') }}">    
+                                <button type="submit">Delete Last Letter</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <!--END OF ROW 1 COL 1-->
+            <!--INTERPETED ALPHABET WITH CORRESPONDING IMAGE-->
+        </tr>
+    </table>
+    
+</body>
+</html>

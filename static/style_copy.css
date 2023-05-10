@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(316deg, #f2f2f2 0%, #c9fdf3 73%);
+    color: black;
+}
+h1{
+    padding-top:.6em;
+
+    text-transform: uppercase;
+    font-size: 42px;
+    text-decoration: underline overline;
+    text-align: center;
+
+    color:#ffffff;
+    background-color: #7addc9;
+    background-image: linear-gradient(316deg, #7addc9 0%, #3b945e 73%);
+    height:1.6em;
+
+    /*border: 1px solid #311402;
+    border-radius: 2px;*/
+    box-shadow:3px 5px #41776cb0 ;
+}
+
+h3{
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+table{
+    width:100%;
+    line-height: 2rem;
+    border-spacing: 0px 15px;
+    padding:.4em .8em .4em .8em;
+    
+}
+
+table td{
+    
+    width:50%;
+    text-align: center;
+
+}
+
+
+td.col_one, .col_two{
+    padding: 2em;
+}
+
+table.t_inner{
+    color:#3f1e09;
+    padding:.3em;
+    text-align: center;
+
+    background-color: #7de0cc;
+    border: 2px outset #64ceb9ea;
+    border-radius: 2px;
+    box-shadow:2px 4px #2961408e;
+
+    
+}
+table.t_inner td, th{
+    padding:.2em 2em .2em 2em;
+}
+table.t_inner th{
+    text-decoration: underline;
+}
+.padded{
+    border: 1px outset #cbf7ead3;
+}
+.vid{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+button[type=submit],[type=reset]{
+    font-variant:small-caps;
+    padding:4px 10px 4px 10px;
+    border: 1.5px;
+    border-style: inset;
+    background-color: #fcfcfcde;
+    border-color: #643d0263;
+    border-radius: 3px;
+    text-align: center;
+}
+
