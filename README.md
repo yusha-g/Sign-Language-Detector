@@ -18,7 +18,7 @@
 &nbsp;&nbsp;&nbsp;[3.1. Results](https://github.com/yusha-g/Sign-Language-Detector#3-outputs-and-results) <br/>
 &nbsp;&nbsp;&nbsp;[3.2. Screenshot of Outputs](https://github.com/yusha-g/Sign-Language-Detector#32-screenshot-of-outputs) <br/>
 
-<b> [4. Installation and Running Guide](https://github.com/yusha-g/Sign-Language-Detector#32-screenshot-of-outputs)  </b> <br/>
+<b> [4. Installation and Running Guide](https://github.com/yusha-g/Sign-Language-Detector#4-installation-and-running-guide)  </b> <br/>
 &nbsp;&nbsp;&nbsp;[4.1. Installing Dependencies](https://github.com/yusha-g/Sign-Language-Detector#41-installing-dependencies) <br/>
 &nbsp;&nbsp;&nbsp;[4.2. Running the application](https://github.com/yusha-g/Sign-Language-Detector#41-installing-dependencies) <br/>
 
